@@ -19,7 +19,7 @@ for (let i = 0; i < vacationSpots.length; i++) {
   console.log("I would love to visit " + vacationSpots[i]);
 }
 
-//******************* */
+//******************* */.  compare
 
 let bobsFollowers = ["Tom", "Bill", "Donald", "Monica"];
 let tinasFollowers = ["Bill", "Kelly", "Monica"];
@@ -51,3 +51,13 @@ do {
   cupsAdded++;
   console.log(cupsAdded + " cup was added");
 } while (cupsAdded < cupsOfSugarNeeded);
+
+//************* */
+for (let i = 0; i < rapperArray.length; i++) {
+  console.log(rapperArray[i]);
+  if (rapperArray[i] === "Notorious B.I.G.") {
+    break;
+  }
+}
+
+//***************** */
