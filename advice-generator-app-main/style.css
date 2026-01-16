@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: hsl(218, 23%, 16%);
+  font-family: Arial, sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: hsl(193, 38%, 86%);
+}
+
+
+.card {
+  background-color: hsl(217, 19%, 24%);
+  max-width: 500px;
+  padding: 30px 20px 60px;
+  border-radius: 12px;
+  text-align: center;
+  position: relative;
+}
+
+.advice-id {
+  color: hsl(150, 100%, 66%);
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.advice-text {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.divider {
+  height: 16px;
+  background-image: url('./images/pattern-divider-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dice-btn {
+  width: 60px;
+  height: 60px;
+  background-color: hsl(150, 100%, 66%);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dice-btn:hover {
+  box-shadow: 0 0 20px hsl(150, 100%, 66%);
+}
+
+/* Mobile */
+@media (max-width: 375px) {
+  .card {
+    margin: 0 15px;
+  }
+
+  .advice-text {
+    font-size: 18px;
+  }
+
+  .divider {
+    background-image: url('./images/pattern-divider-mobile.svg');
+  }
+}
+
+.attribution {
+  margin-top: 50px;
+  font-size: 11px;
+}
+
